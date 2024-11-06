@@ -6,7 +6,6 @@ body{
 .container {
     margin-left: 60px;
     margin-bottom: 4%;
-   
 }
 
 .logo { 
@@ -26,6 +25,7 @@ body{
 
 .header h2{
     color: darkgray;
+    margin-top: 7px;
 }
 
 .header { 
@@ -61,6 +61,13 @@ body{
 
 }
 
+.text {
+    line-height: 1.5em;
+}
+
+.text-m {
+    line-height: 1.5em;
+}
 .main-content {
     display: flex;
     
@@ -73,16 +80,35 @@ body{
 
 .education {
     margin-left: 100px;
+    margin-right: 40px;
 }
 
 .education h3{
     font-weight: bolder;
     font-size: 22px;
+    margin-top: 30px;
 }
 
-.education .Achievements{
-
+.education-title {
+    font-weight: bolder;
 }
+
+.institution {
+    color: darkgrey;
+    margin-top: 7px;
+}
+
+.contact-info {
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+
+.description{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+
 
 .job-title {
     font-weight: bolder;
@@ -93,6 +119,7 @@ body{
 .job-company {
     color: darkgrey;
     margin-bottom: 7px;
+    margin-top: 7px;
 }
 
 .date-location {
