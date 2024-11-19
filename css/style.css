@@ -1,18 +1,18 @@
 body{
     font-family: "IBM Plex Mono", monospace;
-
+    font-size: 1.5em;
 }
 
 .container {
-    margin-left: 60px;
+    margin: 0 100px;
     margin-bottom: 4%;
 }
 
 .logo { 
-    font-size: 50px; 
+    font-size: 4em; 
     background-color: yellow;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 100px;
     text-align: center;
     font-weight: bolder;
     
@@ -36,7 +36,6 @@ body{
 
 .profile-pic { 
     margin-right: 25px; 
-
 }
 
 .summary {
@@ -45,7 +44,6 @@ body{
     margin-top: 30px;
     float: left;
     align-items: center;
-
 }
 
 .content-start {
@@ -53,12 +51,10 @@ body{
     justify-content: flex-start;
     display: flex;
     width: 2000px;
-
 }
 
 .card {
     margin-top: 40px;
-
 }
 
 .text {
@@ -68,9 +64,9 @@ body{
 .text-m {
     line-height: 1.5em;
 }
+
 .main-content {
     display: flex;
-    
 }
 
 .description {
@@ -80,12 +76,12 @@ body{
 
 .education {
     margin-left: 100px;
-    margin-right: 40px;
+    width: 500px;
 }
 
 .education h3{
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 1.4em;
     margin-top: 30px;
 }
 
@@ -109,25 +105,26 @@ body{
     line-height: 1.5em;
 }
 
-
 .job-title {
     font-weight: bolder;
-    font-size: 22px;
-    
+    font-size: 1.2em;
 }
 
 .job-company {
     color: darkgrey;
-    margin-bottom: 7px;
-    margin-top: 7px;
+    font-style: italic;
 }
 
 .date-location {
     display: inline-block;
-    background-color: #c5cfd9;
+    color: rgb(122, 122, 122);
+    background-color: #f9efee;
     padding: 5px;
-    border-radius: 20px;
-    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 7px 14px;
 }
 
+.job-title, .job-company, .date-location {
+    margin-bottom: 15px;
+}
 
